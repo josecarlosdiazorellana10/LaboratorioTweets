@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    position: relative;
+}
+
+.container .logo {
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('https://umg.edu.gt/img/Umg.png'); 
+    background-size: cover;
+}
+
+.tweet-card {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+.input-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-container input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-container button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-container button:hover {
+    background-color: #007BB5;
+}
+
+.share-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 16px;
+    height: 16px;
+    background-image: url('compartir.png'); 
+    background-size: cover;
+}
+
+#tweetList {
+    margin-top: 20px;
+}
+
+.tweet-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-item button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tweet-item button:hover {
+    background-color: #c0392b;
+}
